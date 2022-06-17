@@ -21,3 +21,21 @@ li {
 li:nth-child(5){
     background-color: #DB3000;
 }
+
+a {
+    text-decoration: none;
+    background-color: aqua;
+    border: 4px double black;
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:black;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
