@@ -9,3 +9,80 @@ html{
   }
   /* This code above makes it easier to calculate sizes by adding padding and bordersizes to width and height values*/
 
+body{
+  background-color:#aad4cf ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  
+}
+
+.wrapper{
+  margin: 0 auto;
+  background-color:#bdd8d5;
+  width: 80%;
+  
+}
+
+h1{
+  color: aliceblue;
+  font-size: 3rem;
+}
+/* Gives styles to the nav menu*/
+
+#headerImg {
+  
+}
+
+  
+
+nav ul li {
+  display: inline-block;
+  border-right: 0.2rem solid black;
+  margin: 2rem;
+  margin-right: 7rem;
+  padding-right: 10.8rem;
+
+ 
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+h2{
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+form{
+  border: 0.2rem solid black;
+  margin-bottom: 2rem;
+}
+label , input , textarea , button{
+  display: block;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.radio{
+  display: inline;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  
+}
+h3{
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 0.5rem;
+}

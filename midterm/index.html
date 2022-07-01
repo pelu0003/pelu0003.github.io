@@ -14,11 +14,11 @@
             <h1>Lone Starfish</h1>
             <img src="images/lone-starfish-wide.jpg" alt="header_image" id="headerImg">
             <nav>
-                <ol>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#story"></a> Story</li>
-                    <li> <a href="#contact"></a>Contact</li>
-                </ol>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#story">STORY</a></li>
+                    <li> <a href="#contact">CONTACT</a></li>
+                </ul>
             </nav>
             
         </header>
@@ -32,12 +32,12 @@
         </article>
         <article>
             <h2>Facts About Starfish</h2>
-            <ol>
+            <ul>
                 <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                 <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-            </ol>
+            </ul>
         </article>
         <div id="contact">
             <h2>Contact to learn more </h2>
@@ -55,23 +55,26 @@
                 </label>
                 <textarea id="message" name="yourmessage" required></textarea>
                 <h3>Would you like to visit the Starfish</h3>
-                <label for="yes">
+                <label for="yes" class="radio">
                     Yes
                 </label>
-                <input id="yes" type="radio" name="options">
-                <label for="no">
+                <input id="yes" type="radio" name="options" class="radio">
+                <label for="no" class="radio">
                     No
                 </label>
-                <input id="no" type="radio" name="options">
-                <label for="maybe">
+                <input id="no" type="radio" name="options" class="radio">
+                <label for="maybe" class="radio">
                     Maybe
                 </label>
-                <input id="maybe" type="radio" name="options">
+                <input id="maybe" type="radio" name="options" class="radio">
+                <button type="submit">Send</button>
 
             </form>
         </div>
         <footer>
+         <p id="copy">
             &copy;Lone Starfish
+         </p>
         </footer>
     </div>
     
