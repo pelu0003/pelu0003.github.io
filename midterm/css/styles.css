@@ -29,8 +29,10 @@ h1{
   position: absolute;
   top:55%;
   left: 30%;
+  right:0%;
   color: aliceblue;
   width: 100%;
+  height: auto;
   font-size: 5rem;
   
  
@@ -38,7 +40,10 @@ h1{
 
  #father{
   position: relative;
+  top:0%;
+  left:0%;
   width: 100%;
+  height: auto;
   
   
 }
@@ -135,25 +140,31 @@ list-style-type: square;
  margin-left:1.5rem ;
 
 }
+/* Styling the forms*/
 form{
   border: 0.2rem solid black;
   margin-bottom: 2rem;
 }
-label , input , textarea , button{
+label , input , textarea {
   display: block;
+  width: 95%;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   margin-left: 0.5rem;
   margin-bottom: 0.2rem;
 }
+
+
 .radio{
   display: inline;
+  width: 5%;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
   
 }
+
 h3{
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
@@ -164,6 +175,12 @@ h3{
 
 button{
   background-color: #bdd8d5;
+  display: block;
+  width: 5%;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 /* moves the copyright text to the right corner*/
 #copy{
