@@ -28,15 +28,15 @@ body{
 h1{
   position: absolute;
   top:55%;
-  left: 30%;
-  right:0%;
+  left: 35%;
   color: aliceblue;
-  width: 100%;
-  height: auto;
+
   font-size: 5rem;
   
  
 }
+
+
 
  #father{
   position: relative;
@@ -44,6 +44,7 @@ h1{
   left:0%;
   width: 100%;
   height: auto;
+  margin: auto;
   
   
 }
