@@ -30,21 +30,15 @@ h1{
   top:55%;
   left: 35%;
   color: aliceblue;
-
   font-size: 5rem;
-  
- 
-}
+  }
 
 
 
- #father{
+ .father{
   position: relative;
-  top:0%;
-  left:0%;
   width: 100%;
-  height: auto;
-  margin: auto;
+  margin: 0 auto;
  
   
 }
