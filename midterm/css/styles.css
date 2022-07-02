@@ -1,6 +1,7 @@
 html{
     box-sizing: border-box;
     font-size: 16px;
+    overflow-x: hidden;
   }
   *,
   *:before,
@@ -23,27 +24,61 @@ body{
   
 }
 
+/* Puts the title over the image*/
 h1{
   color: aliceblue;
-  font-size: 3rem;
+  width: 100%;
+  font-size: 5rem;
+  position: absolute;
+  top:15rem;
+  left: 25rem;
+ 
 }
+
+#father{
+  position: relative;
+  width: 100%;
+  
+  
+}
+
+#headerImg{
+  width: 100%;
+  
+ 
+}
+
+
+
+/* Puts the title over theimage*/
+
 /* Gives styles to the nav menu*/
 
-#headerImg {
-  
+nav{
+  width: 100%;
 }
-
-  
-
 nav ul li {
   display: inline-block;
   border-right: 0.2rem solid black;
   margin: 2rem;
-  margin-right: 7rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
   padding-right: 10.8rem;
+  text-align: center;
 
  
 }
+.noborder{
+  display: inline-block;
+  border:none; 
+  margin: 2rem;
+  margin-right: 5rem;
+  padding-right: 10.8rem;
+  text-align: center;
+
+}
+
+
 a {
   text-decoration: none;
   font-size: 1.5rem;
@@ -57,10 +92,47 @@ a:visited{
 a:hover{
   color: grey;
 }
+/* Gives styles to the nav menu*/
+
 h2{
   font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+
+/* floats the image so the paragraph sorrounds the image*/
+
+.content img {
+  max-width:15% ;
+  margin-right: 2rem;
+  margin-left: 1.5rem;
+  float:left;
+ 
+}
+
+.content p {
+  max-width: 85%;
+  margin-left: 1.5rem;
+  
+}
+  
+/* floats the image so the paragraph sorrounds the image*/
+  
+/* stops the floating*/
+  
+
+.stop{
+  clear: both;
+}
+
+/* stops the floating*/
+
+li{
+list-style-type: square;
+ margin-left:1.5rem ;
+
 }
 form{
   border: 0.2rem solid black;
@@ -85,4 +157,15 @@ h3{
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   margin-left: 0.5rem;
+  font-size: 1.3rem;
+  
 }
+
+button{
+  background-color: #bdd8d5;
+}
+/* moves the copyright text to the right corner*/
+#copy{
+  margin-left: 90%;
+}
+/* moves the copyright text to the right corner*/
