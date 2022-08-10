@@ -3,3 +3,74 @@ html{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
+
+.fullContainer{
+    max-width: 1200px;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+header {
+    background-color:#c78c06 ;
+}
+header .header{
+    grid-template-areas: 
+    "logo"
+    "nav"
+    "search"
+    ;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    
+    
+background-color:#c78c06 ;
+}
+header img {
+    grid-area: logo;
+}
+
+nav{
+    grid-area: nav;
+    background-color:#222  ;
+   
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+}
+
+nav ul li{
+   text-align: center;
+}
+
+ nav ul li a:hover{
+    color: #222;
+    background-color: #c78c06;
+ }
+
+.search i {
+    color: #c78c06;
+    border: 3px solid #c78c06;
+}
+
+.search{
+    grid-area: search;
+    text-align: center;
+    background-color: #222;
+   
+}
+.search input{
+    width: 95%;
+   
+}
+
+/* this code above gives styles to the mobile header. Display grid was used to place the elements in une column and 3 rows. 
+Box sizing border box was used to make border and padding part of the size of the content-box */
