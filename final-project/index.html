@@ -13,241 +13,252 @@
     <header>
         <!--In desktop the header will display in grid to create 4 columns. One for the img and one for the nav.one for the form
         and one for the icon. Nav and Ul will display as flex to create the inline menu -->
-        <img src="images/logo.png" alt="logo-image">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#us">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <img src="images/logo.png" alt="logo-image">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#us">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                         <li><a href="#team">Our Team</a></li>
+                         <li><a href="contact">Contact</a></li>
+                    </ul>
+                 </nav>
             <form class="search" action="#" method="post">
                 <label for="searching"></label>
                 <input id="searching" type="search" value="Search">
             </form>
             <i class="fa-solid fa-magnifying-glass"></i>
-       
+        </div>
     </header>
     <section id="home">
         <!--Background image will be placed in css-->
-        <div class="backgroundSquare">
-            <h1>
+        <div class="wrapper">
+            <div class="backgroundSquare">
+                <h1>
                 Welcome to Three Star Media
-            </h1>
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae vitae, consequatur consectetur numquam, dolore fugit, ut corrupti quo mollitia quisquam nulla. Mollitia temporibus voluptatibus id libero at possimus modi?
-            </p>
-            <a class="connect">Connect with us
+                 </h1>
+                 <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae vitae, consequatur consectetur numquam, dolore fugit, ut corrupti quo mollitia quisquam nulla. Mollitia temporibus voluptatibus id libero at possimus modi?
+                 </p>
+                <a class="connect">Connect with us
                 <i class="fa-solid fa-caret-right"></i>
-            </a>
+                 </a>
+             </div>
         </div>
-
     </section>
     <section id="us">
         <!--In desktop this section will display as a grid with 6 columns and 4 rows. The image wil take 3 columns and four rows.
         The h2 will take three columns and 2 rows. Each parragraph will take 3 columns and one row -->
-        <img src="images/about-us.jpg" alt="about-us-image">
-        <h2>
-            About us
-        </h2>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate labore reprehenderit, repudiandae consequatur asperiores omnis, culpa debitis soluta exercitationem inventore ducimus aliquam adipisci esse minima recusandae neque cumque quidem? Accusantium.
-        </p>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nesciunt iste aut earum, quasi soluta assumenda libero eveniet dolore iure nulla esse optio, ducimus tempora quam consequatur minima, recusandae ipsam?
-        </p>
-
+        <div class="wrapper">
+            <img src="images/about-us.jpg" alt="about-us-image">
+            <h2>
+                 About us
+            </h2>
+             <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate labore reprehenderit, repudiandae consequatur asperiores omnis, culpa debitis soluta exercitationem inventore ducimus aliquam adipisci esse minima recusandae neque cumque quidem? Accusantium.
+            </p>
+             <p>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi nesciunt iste aut earum, quasi soluta assumenda libero eveniet dolore iure nulla esse optio, ducimus tempora quam consequatur minima, recusandae ipsam?
+            </p>
+        </div>
 
     </section>
     <section id="services">
         <!--In desktop container-3 will display as grid. 12 columns 12 rows.-->
-        <h2>
-            Our Services
-        </h2>
-        <div class="container-3">
-            <div class="box-1">
-                <img src="images/digital.jpg" alt="Digital Transformation">
-                <h3>
-                    Digital Transformation
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, reprehenderit nemo aspernatur, pariatur similique incidunt suscipit exercitationem, aperiam laudantium officiis architecto. Iusto repellendus numquam aliquam? Qui labore facere cumque minima.
-                </p>
-            </div>
-            <div class="box-2">
-                <img src="images/marketing.jpg" alt="Marketing">
-                <h3>
-                    Marketing
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quis quasi voluptates dolore! Non, reprehenderit delectus ratione id culpa autem modi, nihil sed illo aut, nobis commodi ipsum quam illum?
-                </p>
+        <div class="wrapper">
+            <h2>
+                Our Services
+            </h2>
+            <div class="container-3">
+                <div class="box-1">
+                    <img src="images/digital.jpg" alt="Digital Transformation">
+                    <h3>
+                         Digital Transformation
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, reprehenderit nemo aspernatur, pariatur similique incidunt suscipit exercitationem, aperiam laudantium officiis architecto. Iusto repellendus numquam aliquam? Qui labore facere cumque minima.
+                    </p>
+                </div>
+                <div class="box-2">
+                    <img src="images/marketing.jpg" alt="Marketing">
+                    <h3>
+                        Marketing
+                    </h3>
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quis quasi voluptates dolore! Non, reprehenderit delectus ratione id culpa autem modi, nihil sed illo aut, nobis commodi ipsum quam illum?
+                    </p>
                 
-            </div>
-            <div class="box-3">
-                <img src="images/video.jpg" alt="Video Production">
-                <h3>
-                    Video Production
-                </h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus error culpa, dolorem nisi corrupti vitae sit optio atque quidem repellat fugiat rerum ab quia nesciunt, modi, nihil deserunt fugit odio?
-                </p>
-            </div>
-            <div class="box-4">
-                <img src="images/web.jpg" alt="Web Development">
-                <h3>
-                    Web Development
-                </h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusantium explicabo quos accusamus, sequi saepe labore architecto repudiandae reiciendis placeat nihil velit, quo blanditiis voluptatem similique dolores id dolorum numquam.
-                </p>
+                </div>
+                <div class="box-3">
+                    <img src="images/video.jpg" alt="Video Production">
+                    <h3>
+                        Video Production
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus error culpa, dolorem nisi corrupti vitae sit optio atque quidem repellat fugiat rerum ab quia nesciunt, modi, nihil deserunt fugit odio?
+                    </p>
+                </div>
+                <div class="box-4">
+                    <img src="images/web.jpg" alt="Web Development">
+                    <h3>
+                        Web Development
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusantium explicabo quos accusamus, sequi saepe labore architecto repudiandae reiciendis placeat nihil velit, quo blanditiis voluptatem similique dolores id dolorum numquam.
+                     </p>
                 
-            </div>
-            <div class="box-5">
-                <img src="images/print.jpg" alt="Print">
-                <h3>
-                    Print
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam ut animi nostrum dicta commodi nulla ea obcaecati adipisci ratione ipsa, accusantium hic. Eum quisquam vitae officiis vel? Tempora, doloribus!
-                </p>
+                </div>
+                <div class="box-5">
+                    <img src="images/print.jpg" alt="Print">
+                    <h3>
+                         Print
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magnam ut animi nostrum dicta commodi nulla ea obcaecati adipisci ratione ipsa, accusantium hic. Eum quisquam vitae officiis vel? Tempora, doloribus!
+                    </p>
+                </div>
             </div>
         </div>
     </section>
     <section id="vision">
         <!--background Imagewill be placed in Css-->
-        <h3>
-            Our Vision
-        </h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis id sapiente quae perspiciatis voluptates doloremque sint, dolore, sit veritatis ullam quod, soluta aspernatur similique. Quod alias at enim hic.
-        </p>
-        <a class="learn">Learn More
-            <i class="fa-solid fa-caret-right"></i>
-        </a>
-
+        <div class="wrapper">
+            <h3>
+                 Our Vision
+             </h3>
+             <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis id sapiente quae perspiciatis voluptates doloremque sint, dolore, sit veritatis ullam quod, soluta aspernatur similique. Quod alias at enim hic.
+            </p>
+            <a class="learn">Learn More
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+        </div>
     </section>
     <section id="team">
         <!--In desktop container will display as grid.-->
-        <h2>
-            Our Team
-        </h2>
-        <div class="container">
-            <div class="box-6">
-                <img src="images/john.jpg" alt="Jhon">
-            </div>
-            <div class="box-7">
-                <h3>
-                    Jhon Doe
-                </h3>
-                <h6>
-                    CEO and Co-owner
-                </h6>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio reiciendis eaque, culpa, quas ullam minus doloremque dolorem nemo numquam dolor corrupti quae officia, libero deleniti nisi porro exercitationem id autem.
-                </p>
+        <div class="wrapper">
+            <h2>
+                Our Team
+             </h2>
+            <div class="container">
+                <div class="box-6">
+                    <img src="images/john.jpg" alt="Jhon">
+                </div>
+                <div class="box-7">
+                    <h3>
+                        Jhon Doe
+                    </h3>
+                    <h6>
+                         CEO and Co-owner
+                    </h6>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio reiciendis eaque, culpa, quas ullam minus doloremque dolorem nemo numquam dolor corrupti quae officia, libero deleniti nisi porro exercitationem id autem.
+                    </p>
                 
-            </div>
-            <div class="box-8">
-                <img src="images/bob.jpg" alt="Bob Rite">
+                </div>
+                <div class="box-8">
+                    <img src="images/bob.jpg" alt="Bob Rite">
 
-            </div>
-            <div class="box-9">
-                <h3>
-                    Bob Rite
-                </h3>
-                <h6>
-                    CEO and Co-owner
-                </h6>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio reiciendis eaque, culpa, quas ullam minus doloremque dolorem nemo numquam dolor corrupti quae officia, libero deleniti nisi porro exercitationem id autem.
-                </p>
+                </div>
+                <div class="box-9">
+                    <h3>
+                        Bob Rite
+                    </h3>
+                    <h6>
+                        CEO and Co-owner
+                    </h6>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio reiciendis eaque, culpa, quas ullam minus doloremque dolorem nemo numquam dolor corrupti quae officia, libero deleniti nisi porro exercitationem id autem.
+                    </p>
+                </div>
             </div>
         </div>
 
     </section>
     <section id="contact">
         <!--Container-2 will display as grid using boxes to place elements in the right location in desktop version-->
-        <h3>
-            Contact Us
-        </h3>
-        <div class="container-2">
-            <div class="box-10">
-                <h6>
-                    Send us a message
-                </h6>
-                <form action="#" method="post">
-                    <label for="user_name">Fullname</label>
-                    <input id="user_name" type="text" name="fullname" required>
+        <div class="wrapper">
+            <h3>
+                Contact Us
+            </h3>
+            <div class="container-2">
+                <div class="box-10">
+                    <h6>
+                        Send us a message
+                    </h6>
+                    <form action="#" method="post">
+                        <label for="user_name">Fullname</label>
+                        <input id="user_name" type="text" name="fullname" required>
 
-                    <label for="mail">Email</label>
-                    <input id="mail" type="email" name="email" required>
+                        <label for="mail">Email</label>
+                        <input id="mail" type="email" name="email" required>
 
-                    <label for="your_message">Message</label>
-                    <textarea id="your_message" name="message"></textarea>
+                        <label for="your_message">Message</label>
+                        <textarea id="your_message" name="message"></textarea>
 
-                    <button type="submit">Send</button>
+                        <button type="submit">Send</button>
 
-                </form>
+                    </form>
 
-            </div>
-            <div class="box-11">
-                <h6>
-                    Hours of operation
-                </h6>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>
-                                Days
-                            </th>
-                            <th>
-                                Hours
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                Monday-Friday
-                            </td>
-                            <td>
-                                9 AM - 6 PM
-                            </td>
+                </div>
+                 <div class="box-11">
+                    <h6>
+                        Hours of operation
+                    </h6>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Days
+                                </th>
+                                <th>
+                                    Hours
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Monday-Friday
+                                </td>
+                                <td>
+                                    9 AM - 6 PM
+                                </td>
 
-                        </tr>
-                        <tr>
-                            <td>
-                                Saturday - Sunday
-                            </td>
-                            <td>
-                                Closed
-                            </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Saturday - Sunday
+                                </td>
+                                <td>
+                                    Closed
+                                </td>
                         
 
-                        </tr>
-                    </tbody>
-                </table>
+                            </tr>
+                        </tbody>
+                    </table>
                 
-            </div>
-            <div class="box-12">
-                <h6>
-                    Location
-                </h6>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567608!2d-75.75712548448338!3d45.349927779099744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1ses-419!2sca!4v1659189662576!5m2!1ses-419!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="box-12">
+                    <h6>
+                        Location
+                    </h6>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567608!2d-75.75712548448338!3d45.349927779099744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1ses-419!2sca!4v1659189662576!5m2!1ses-419!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
+                </div>
             </div>
         </div>
 
     </section>
     <footer>
-        <p>
-            &copy; Copyright Three Star Media 2020 <br>
-            All Images from <a href="https://unsplash.com/" target="blank">Unsplash</a>
-        </p>
-
+        <div class="wrapper">
+            <p>
+                 &copy; Copyright Three Star Media 2020 <br>
+                All Images from <a href="https://unsplash.com/" target="blank">Unsplash</a>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
