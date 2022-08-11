@@ -73,5 +73,40 @@ nav ul li{
    
 }
 
-/* this code above gives styles to the mobile header. Display grid was used to place the elements in une column and 3 rows. 
-Box sizing border box was used to make border and padding part of the size of the content-box */
+/* this code above gives styles to the mobile header. Display grid was used to place the elements in one column and 3 rows. 
+Box sizing border box was used to make border and padding part of the size of the content-box. */
+
+h1{
+    font-size: 8.5rem;
+    padding: 10% 0% 10% 0%;
+    color: white;
+    margin-left: 10px;
+}
+.backgroundSquare{
+    background-color:rgba(0, 0,0, 50%) ;
+}
+#home{
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding: 10% 0% 10% 0%;
+   
+}
+
+.backgroundSquare p{
+    color: white;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.backgroundSquare a{
+    display: inline-block;
+    background-color: #c78c06;
+    color: #222;
+    font-size: 2rem;
+    padding: 4%;
+    margin:20px 0px 20px 10px;
+}
+
+/* This code above gives styles to the homer section. the rgba was used to make the transparent square over the background image.
+The padding properties were used on the home section, the h1 and the a tags to achieve the look provided in the example, so
+the background image is fully displayed on its height. */
