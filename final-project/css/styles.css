@@ -15,7 +15,7 @@ html{
 header {
     background-color:#c78c06 ;
 }
-header .header{
+.gridHeader{
     grid-template-areas: 
     "logo"
     "nav"
