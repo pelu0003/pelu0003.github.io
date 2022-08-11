@@ -128,7 +128,7 @@ the background image is fully displayed on its height. */
 .gridUs{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:1fr 0.3fr 0.5fr 0.5fr ;
+    grid-template-rows:1fr 0.2fr 0.4fr 0.4fr ;
     grid-template-areas: 
     "image"
     "title"
@@ -150,17 +150,17 @@ the background image is fully displayed on its height. */
 }
 .gridUs :nth-child(3){
     grid-area: p1;
-    margin-top: 5px;
-   
+    
 }
 .gridUs :nth-child(4){
     grid-area: p2;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    
 }
 
 h2{
     font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
   
 }
 
