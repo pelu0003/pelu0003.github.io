@@ -4,17 +4,22 @@ html{
     font-size: 16px;
 }
 
+
+
 .fullContainer{
     max-width: 1200px;
+    
 }
 
 .wrapper{
     margin: 0 auto;
+    width: 95%;
 }
 
-header {
-    background-color:#c78c06 ;
+header{
+    background-color: #c78c06;
 }
+
 .gridHeader{
     grid-template-areas: 
     "logo"
@@ -24,18 +29,18 @@ header {
     display: grid;
     grid-template-rows: 0.7fr 1fr 0.2fr;
     grid-template-columns: 1fr;
-    
-    
-background-color:#c78c06 ;
+    background-color:#c78c06 ;
+   
 }
 header img {
     grid-area: logo;
+   
 }
 
 nav{
     grid-area: nav;
     background-color:#222  ;
-   
+    width: 100%;
 }
 
 nav ul a{
@@ -60,6 +65,7 @@ nav ul li{
 .search i {
     color: #c78c06;
     border: 3px solid #c78c06;
+  
 }
 
 .search{
@@ -69,7 +75,8 @@ nav ul li{
    
 }
 .search input{
-    width: 95%;
+    width: 90%;
+  
    
 }
 
@@ -77,10 +84,11 @@ nav ul li{
 Box sizing border box was used to make border and padding part of the size of the content-box. */
 
 h1{
-    font-size: 8.5rem;
+    font-size: 5rem;
     padding: 10% 0% 10% 0%;
     color: white;
-    margin-left: 10px;
+   
+   
 }
 .backgroundSquare{
     background-color:rgba(0, 0,0, 50%) ;
@@ -89,13 +97,15 @@ h1{
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
     padding: 10% 0% 10% 0%;
+    width: 100%;
    
 }
 
 .backgroundSquare p{
     color: white;
     padding-left: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+   
 }
 
 .backgroundSquare a{
@@ -104,9 +114,54 @@ h1{
     color: #222;
     font-size: 2rem;
     padding: 4%;
-    margin:20px 0px 20px 10px;
+    margin:20px 0px 20px 0px;
+  
 }
 
 /* This code above gives styles to the homer section. the rgba was used to make the transparent square over the background image.
 The padding properties were used on the home section, the h1 and the a tags to achieve the look provided in the example, so
 the background image is fully displayed on its height. */
+
+#us{
+    background-color:#ffe6ac ;
+}
+.gridUs{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 0.3fr 0.5fr 0.5fr ;
+    grid-template-areas: 
+    "image"
+    "title"
+    "p1"
+    "p2"
+    ;
+}
+.gridUs img{
+    grid-area: image;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+}
+
+.gridUs h2{
+    grid-area: title;
+}
+.gridUs :nth-child(3){
+    grid-area: p1;
+    margin-top: 5px;
+   
+}
+.gridUs :nth-child(4){
+    grid-area: p2;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 2.5rem;
+  
+}
+
+/*this code above gives styles to the Us section*/
