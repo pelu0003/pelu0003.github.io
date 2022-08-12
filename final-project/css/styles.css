@@ -385,3 +385,15 @@ td{
 }
 
 /*This code above gives style to the contact form ,table and map from contact section*/
+
+footer{
+    background-color: #222;
+
+}
+
+footer p{
+    color: #c78c06;
+    padding: 10% 0% 10% 0%;
+}
+
+/*this code above gives styles to the footer */
