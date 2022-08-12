@@ -34,6 +34,7 @@ header{
 }
 header img {
     grid-area: logo;
+    width: auto;
    
 }
 
@@ -81,7 +82,8 @@ nav ul li{
 }
 
 /* this code above gives styles to the mobile header. Display grid was used to place the elements in one column and 3 rows. 
-Box sizing border box was used to make border and padding part of the size of the content-box. */
+Box sizing border box was used to make border and padding part of the size of the content-box. The width and margin of the wrapper
+is to center the content */
 
 h1{
     font-size: 5rem;
@@ -124,6 +126,7 @@ the background image is fully displayed on its height. */
 
 #us{
     background-color:#ffe6ac ;
+    margin-bottom: 10%;
 }
 .gridUs{
     display: grid;
@@ -157,6 +160,7 @@ the background image is fully displayed on its height. */
     
 }
 
+
 h2{
     font-size: 2.5rem;
     color: black;
@@ -165,3 +169,77 @@ h2{
 }
 
 /*this code above gives styles to the Us section*/
+
+#services h2{
+    margin-bottom: 5%;
+    
+}
+
+#services h3{
+    margin-left: 2%;
+}
+#services p{
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+#services a{
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 5%;
+    margin: 2%;
+}
+.container-3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "digTransform"
+    "marktng"
+    "video"
+    "web"
+    "print"
+    ;
+}
+
+.digitalTransformation{
+    grid-area: digTransform;
+    background-color: #ffe6ac;
+    margin: 3% 0% 3% 0%;
+}
+
+.marketingServices{
+    grid-area: marktng;
+    background-color: #ffe6ac;
+}
+.videoProduction{
+    grid-area: video;
+    background-color: #ffe6ac;
+    margin: 3% 0% 3% 0%;
+}
+
+.webDevelopment{
+    grid-area: web;
+    background-color: #ffe6ac;
+    margin: 3% 0% 3% 0%;
+}
+
+.printServices{
+    grid-area: print;
+    background-color: #ffe6ac;
+    margin: 3% 0% 3% 0%;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+img{
+    width: 100%;
+}
+
+/* This code above gives styles to the Service Section. */
+
