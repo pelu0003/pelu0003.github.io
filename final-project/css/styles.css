@@ -273,6 +273,7 @@ img{
 
 #team h3{
     margin-left: 3%;
+    padding-top: 3%;
 }
 
 #team h6{
@@ -352,6 +353,8 @@ img{
     display: block;
     background-color: #222;
     color: #c78c06;
+    margin-top: 3%;
+    font-weight: bold;
 }
 
 #contact form textarea{
