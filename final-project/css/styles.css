@@ -400,3 +400,39 @@ footer p{
 }
 
 /*this code above gives styles to the footer */
+
+/*this is the end of mobile style*/
+
+/* from here starts the media querry for screens of 760px and largers*/
+
+@media screen and (min-width:760px){
+.gridHeader{
+    grid-template-rows: 1fr;
+    grid-template-columns:0.2fr 1fr 1fr;
+    grid-template-areas: 
+    "logo nav search"
+    ;
+    background-color: #222;
+}
+header{
+    padding: 3%;
+}
+nav ul {
+    display: flex;
+   align-items: center;
+   margin-right: 5%;
+    
+}
+li{
+    margin: 0% 3% 0% 3%;
+    
+    
+}
+nav ul a{
+    padding:15%;
+   
+}
+.search{
+    max-width: 80%;
+}
+}
