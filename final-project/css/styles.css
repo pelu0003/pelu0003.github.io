@@ -85,14 +85,9 @@ is to center the content */
 
 h1{
     font-size: 5rem;
-    padding: 10% 0% 10% 0%;
     color: white;
-   
-   
 }
-.backgroundSquare{
-    background-color:rgba(0, 0,0, 50%) ;
-}
+
 #home{
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
@@ -101,9 +96,13 @@ h1{
    
 }
 
+.backgroundSquare{
+    background-color:rgba(0, 0,0, 50%) ;
+    
+}
+
 .backgroundSquare p{
     color: white;
-    padding-left: 10px;
     font-size: 1rem;
    
 }
