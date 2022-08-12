@@ -320,3 +320,68 @@ img{
 }
 
 /* This code above gives styles to the team section*/
+
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "contactF"
+    "hours"
+    "map"
+    ;
+}
+
+.contactForm{
+    grid-area: contactF;
+}
+
+.schedule{
+    grid-area: hours;
+}
+
+.locationMap{
+    grid-area: map;
+}
+#contact form label{
+    display: block;
+    width: 100%;
+}
+#contact form input{
+   width: 100%;
+}
+
+#contact form button{
+    display: block;
+    background-color: #222;
+    color: #c78c06;
+}
+
+#contact form textarea{
+    width: 100%;
+    height: 12rem;
+    resize: none;
+}
+
+table{
+    width: 100%;
+    border:1px solid #222;
+}
+
+th{
+    background-color: #ffe6ac;
+    border:1px solid #222;
+    padding: 3%;
+}
+td{
+    border:1px solid #222;
+    padding: 3%;
+}
+
+#contact iframe{
+    width: 100%;
+    margin-bottom: 5%;
+    
+}
+
+/*This code above gives style to the contact form ,table and map from contact section*/
