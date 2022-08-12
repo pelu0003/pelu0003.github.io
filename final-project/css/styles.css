@@ -419,6 +419,7 @@ header{
 }
 nav ul {
     display: flex;
+    flex-wrap: wrap;
    align-items: center;
    margin-right: 5%;
     
@@ -462,6 +463,7 @@ h1{
     "image image image p2 p2 p2"
     ;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 .gridUs h2{
     margin-top: 5%;
