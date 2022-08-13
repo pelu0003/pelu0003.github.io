@@ -406,6 +406,10 @@ footer p{
 /* from here starts the media querry for screens of 760px and largers*/
 
 @media screen and (min-width:760px){
+
+.wrapper{
+    width: 90%;
+}
 .gridHeader{
     grid-template-rows: 1fr;
     grid-template-columns:0.2fr 1fr 1fr;
@@ -413,6 +417,7 @@ footer p{
     "logo nav search"
     ;
     background-color: #222;
+    align-items: stretch;
 }
 header{
     padding: 3%;
@@ -431,15 +436,17 @@ li{
 }
 nav ul a{
     padding:15%;
+    
    
 }
 .search input{
-    width: 50%;
-    padding:3%;
+    width: 60%;
+    padding:2%;
+    margin-left: 10%;
 }
 .search i{
     width: 5%;
-    padding:3%;
+    padding:2%;
     border: 2px solid #c78c06;
 }
 /*this code above gives styles to the desktop header. Display flex was used in ul to display the li items in a single line.
