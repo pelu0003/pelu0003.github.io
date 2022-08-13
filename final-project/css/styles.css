@@ -289,7 +289,7 @@ img{
     padding-bottom: 3%;
 }
 
-.conatainer{
+.container{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4,1fr);
@@ -299,6 +299,8 @@ img{
     "bPh"
     "bInfo"
     ;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .jhonPhoto{
@@ -308,6 +310,7 @@ img{
 .jhonInfo{
     grid-area: jInfo;
     background-color: #ffe6ac;
+    margin-bottom: 3%;
 }
 
 .bobPhoto{
@@ -317,6 +320,7 @@ img{
 .bobInfo{
     grid-area: bInfo;
     background-color: #ffe6ac;
+    margin-bottom: 3%;
 }
 
 /* This code above gives styles to the team section*/
@@ -536,4 +540,20 @@ h2{
     font-size: 4rem;
 }
 /*This code above gives styles to vision section*/
+.container{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "jPh jInfo"
+    "bInfo bPh"
+    ;
+    
+}
+.jhonInfo{
+    margin: 0;
+}
+.bobInfo{
+    margin: 0;
+}
+/*This code gives styles to our team section*/
 }
