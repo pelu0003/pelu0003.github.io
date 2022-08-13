@@ -307,20 +307,32 @@ img{
     grid-area: jPh;
 }
 
+.jhonPhoto img{
+    width: 100%;
+    margin: 0;
+}
+
 .jhonInfo{
     grid-area: jInfo;
     background-color: #ffe6ac;
     margin-bottom: 3%;
+    margin-top: 0;
 }
 
 .bobPhoto{
     grid-area: bPh;
 }
 
+.bobPhoto img{
+    width: 100%;
+    margin: 0;
+}
+
 .bobInfo{
     grid-area: bInfo;
     background-color: #ffe6ac;
     margin-bottom: 3%;
+    margin-top: 0;
 }
 
 /* This code above gives styles to the team section*/
@@ -334,6 +346,8 @@ img{
     "hours"
     "map"
     ;
+    align-items:stretch;
+    flex-wrap: wrap;
 }
 
 .contactForm{
@@ -386,8 +400,9 @@ td{
 
 #contact iframe{
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 35%;
     margin-top: 5%;
+    height: 80%;
     
 }
 
@@ -395,6 +410,7 @@ td{
 
 footer{
     background-color: #222;
+    margin-top: 5%;
 
 }
 
@@ -556,4 +572,36 @@ h2{
     margin: 0;
 }
 /*This code gives styles to our team section*/
+.container-2{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "contactF map"
+    "hours hours"
+    ;
+    align-items:stretch;
+    flex-wrap: wrap;
+    
+}
+.contactForm{
+    margin-right: 3%;
+}
+.contactForm button{
+    padding: 2%;
+}
+#contact iframe{
+    height: 80%;
+}
+#contact h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.schedule{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*This code above gives styles to the contact section.*/
+footer p{
+    padding: 5% 0% 5% 0%;
+}
 }
