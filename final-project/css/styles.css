@@ -445,7 +445,7 @@ nav ul a{
 /*this code above gives styles to the desktop header. Display flex was used in ul to display the li items in a single line.
 the items were aligned with the center property to make all the locate the home li at the same height of its relatives*/
 .backgroundSquare{
-    margin: 0% 3% 0% 3%;
+    margin: 0% 2% 0% 2%;
 }
 h1{
     font-size: 7rem;
@@ -480,4 +480,42 @@ h2{
     width:90%; 
 }
 /*this code above gives style to the About us Section*/
+.container-3{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: 
+    "digTransform digTransform digTransform digTransform digTransform digTransform marktng marktng marktng marktng marktng marktng"
+    "digTransform digTransform digTransform digTransform digTransform digTransform marktng marktng marktng marktng marktng marktng"
+    "digTransform digTransform digTransform digTransform digTransform digTransform marktng marktng marktng marktng marktng marktng"
+    "digTransform digTransform digTransform digTransform digTransform digTransform marktng marktng marktng marktng marktng marktng"
+    "digTransform digTransform digTransform digTransform digTransform digTransform marktng marktng marktng marktng marktng marktng"
+    "digTransform digTransform digTransform digTransform digTransform digTransform marktng marktng marktng marktng marktng marktng"
+    "video video video video web web web web print print print print"
+    "video video video video web web web web print print print print"
+    "video video video video web web web web print print print print"
+    "video video video video web web web web print print print print"
+    "video video video video web web web web print print print print"
+    "video video video video web web web web print print print print"
+    ;
+    align-items:stretch;
+    
+}
+.digitalTransformation{
+    margin: 3%;
+}
+.marketingServices{
+    margin: 3%;
+}
+.videoProduction{
+    margin: 3%;
+}
+.webDevelopment{
+    margin: 3%;
+}
+.printServices{
+    margin: 3%;
+}
+#services h2{
+    margin: 0;
+}
 }
