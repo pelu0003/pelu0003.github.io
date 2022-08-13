@@ -79,7 +79,8 @@ nav ul li{
     width: 94%;
 }
 
-/* this code above gives styles to the mobile header. Display grid was used to place the elements in one column and 3 rows. 
+/* this code above gives styles to the mobile header. Display grid was used to place the elements in one column and 3 rows.grid area
+property is udes on childs to relate with the grid template area of the parent to place the elements in the order we want. 
 Box sizing border box was used to make border and padding part of the size of the content-box. The width and margin of the wrapper
 is to center the content */
 
@@ -166,7 +167,7 @@ h2{
   
 }
 
-/*this code above gives styles to the Us section*/
+/*this code above gives styles to the Us section*/ /*This kind of comments are only a guide for my eye*/
 
 #services h2{
     margin-bottom: 5%;
