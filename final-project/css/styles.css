@@ -470,7 +470,7 @@ h1{
     
 }
 h2{
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #us{
@@ -518,4 +518,15 @@ h2{
 #services h2{
     margin: 0;
 }
+/*this code above gives styles to the service section. Align items streth was used to align all the squares equally*/
+#vision{
+    padding: 7% 0% 7% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#vision h3{
+    font-size: 4rem;
+}
+/*This code above gives styles to vision section*/
 }
